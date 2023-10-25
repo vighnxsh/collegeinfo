@@ -1,5 +1,7 @@
+import Link from 'next/link'
 import React from 'react'
 import { BiSearchAlt } from 'react-icons/bi'
+import { IoArrowBackOutline } from 'react-icons/io5'
 
 export default function JD() {
   return (
@@ -10,6 +12,7 @@ export default function JD() {
          <h1 className='pr-2'>CollegeInfo</h1> <BiSearchAlt/>
 
       </div>
+      <Link href='/thane' className='font-bold flex flex-row text-3xl p-1 pt-2 pl-5'> <IoArrowBackOutline/> </Link>
         
          <div className='pt-2 m-10 flex flex-col items-center '>
       

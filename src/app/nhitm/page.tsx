@@ -1,5 +1,8 @@
+import Link from 'next/link'
 import React from 'react'
+import { AiOutlineHome } from 'react-icons/ai'
 import {BiSearchAlt} from 'react-icons/bi'
+import {IoArrowBackOutline} from 'react-icons/io5'
 
 export default function Nhitm() {
   return (
@@ -8,6 +11,10 @@ export default function Nhitm() {
            <div className='bg-blue-500 text-3xl p-5  font-bold text-white flex flex-row'>
          <h1 className='pr-2'>CollegeInfo</h1> <BiSearchAlt/>
 
+      </div>
+
+      <div>
+      <Link href='/thane' className='font-bold flex flex-row text-3xl p-1 pt-2 pl-5'> <IoArrowBackOutline/> </Link>
       </div>
         
          <div className='pt-2 m-10 flex flex-col items-center '>
