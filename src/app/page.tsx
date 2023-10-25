@@ -56,6 +56,12 @@ export default function Home() {
        <Link href='pune' className='bg-blue-600 text-white p-3 mr-80  rounded-xl mt-2 '>Explore</Link>
 
       </div>
+
+<div>
+  <h1 className='p-3 bg-blue-400'>Made by Mini Project Group CSD_07 @NHITM</h1>
+</div>
+
+
     </div>
    
   )
